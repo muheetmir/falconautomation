@@ -1,0 +1,39 @@
+<h2>Reporter output</h2><table><tr><td>INFO: The value found with Environment variable Falcon is: Falcon</td></tr>
+<tr><td>INFO: The value found with Environment Module variable sample is: sample</td></tr>
+<tr><td>The value found with Environment variable WIN_10_Edge_42 is: WIN_10_Edge_42</td></tr>
+<tr><td>INFO: Clients Found: [Falcon]
+</td></tr>
+<tr><td>INFO: Modules Selected: [sample]
+</td></tr>
+<tr><td>INFO: New Suite Created with name: Falcon-Sample-WIN_10_Edge_42</td></tr>
+<tr><td><?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_Edge_42">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="Edge"/>
+  <parameter name="browserVersion" value="42"/>
+  <test name="SampleTest">
+    <classes>
+      <class name="com.qa.automation.FalconUI.testscript.GmailLogin"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_Edge_42 -->
+</td></tr>
+<tr><td>Opening browser: Edge</td></tr>
+<tr><td>Maximizing browser window</td></tr>
+<tr><td>calling the page objects method for gmail login</td></tr>
+<tr><td>Entering the username</td></tr>
+<tr><td>No such element found by IdNo such element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ATMECSINLT-269', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities [{applicationCacheEnabled=true, InPrivate=false, pageLoadStrategy=normal, platform=WINDOWS, acceptSslCerts=true, browserVersion=42.17134.1098.0, platformVersion=10, locationContextEnabled=true, webStorageEnabled=true, browserName=MicrosoftEdge, takesScreenshot=true, takesElementScreenshot=true, javascriptEnabled=true, platformName=WINDOWS}]
+Session ID: 94AB3ADB-CC95-4238-BA5B-D760DC1A32AB
+*** Element info: {Using=id, value=identifierId}</td></tr>
+<tr><td>FAIL : Error occurred, capturing screenshot; refer to ERROR tab for more details</td></tr>
+<tr><td>Unknown error cannot upload screenshot to server : Connection timed out: connect</td></tr>
+<tr><td>Unknown error cannot upload screenshot to server : Connection timed out: connect</td></tr>
+</table>
